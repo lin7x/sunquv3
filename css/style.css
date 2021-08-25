@@ -1,0 +1,375 @@
+@import 'main.css';
+@import 'texto-h1.css';
+@import 'texto-p.css';
+@import 'button.css';
+@import 'onpremise.css';
+@import 'foros-home.css';
+@import 'footer.css';
+*, *::before, *::after
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.vector1
+{
+    margin-top: -10px;
+}
+
+.menu 
+{
+    background-color: #4DACE1;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+}
+
+.logo img {
+    width: 150px;
+    height: 55px;
+    
+}
+
+.logo
+{
+    margin-left: -100px;
+}
+
+.menu_items
+{
+    display: flex;
+    list-style: none;
+    margin-right: -130px;
+}
+
+.menu_items li 
+{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu_items li a
+{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    font-family:'Quattrocento Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    
+}
+
+.menu_items li:hover, li.active
+{
+    background-color: rgba(0, 0, 0, .3);
+    transition: .4s;
+}
+
+.btn_menu
+{
+    margin-right: 30px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+
+}
+
+ul.show
+{
+    top: 65px;
+    
+}
+
+
+@media screen and (max-width: 952px)
+{
+    .logo
+    {
+        /* padding-left: 35px; */
+        margin-right: 100px;
+    }
+
+    .logo img{
+        width: 140px;
+    }
+
+    .menu_items li a 
+    {
+        font-size: 16px;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 858px)
+{
+    .menu
+    {
+        height: 65px;
+    }
+
+    .btn_menu
+    {
+        display: inline-flex;
+        margin-right: 0;
+    }
+    .menu_items
+    {
+        position: fixed;
+        width: 150vw;
+        height: calc(100% - 65px);
+        background: #414141;
+        top: -1000vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+    .menu_items li
+    {
+        margin: 30px 0 0 0;
+        line-height: 30px;
+    }
+    .menu_items li:hover
+    {
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .menu_items li a:hover
+    {
+        color: #e9183b;
+    }
+    .logo
+    {
+        font-size: 25px;
+        /* padding-left: 35px; */
+        margin-left: 0;
+    }
+
+    .logo img 
+    {
+        width: 140px;
+        height: 50px;
+    }
+    label.logo
+    {
+        margin-top: 8px;
+    }
+    
+
+    /* Responsive main */
+
+
+    .nav-div__inicio{
+        flex-direction: column;
+
+    }
+    
+    .nav-div-section__contenido
+    {
+        width: 100%;
+        margin-top: 70px;
+        
+    }
+
+    .nav-div-section__contenido button
+    {
+        position: relative;
+        top: 350px;
+    }
+
+    .nav-div-img__image1
+    {
+        width: 100%;
+        margin-top: -150px;
+        margin-bottom: 200px;
+    }
+
+    .nav-div-img__image1 img 
+    {
+        width: 300px;
+    }
+
+    /* INFRAESTRUCTURA CLOUD */
+
+    .Infra-cloud
+    {
+        flex-direction: column;
+    }
+
+    .texto-infra-cloud
+    {
+        width: 100%;
+    }
+
+    .infra-cloud--image
+    {
+        width: 100%;
+    }
+
+    .infra-cloud--image img 
+    {
+        width: 250px;
+    }
+
+    .icons-cloud img 
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    /* INFRAESTRUCTURA ON-PREMISE */
+
+    .contenido__Infra-on-premise
+    {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .texto-infra-onpremise
+    {
+        width: 100%;
+    }
+
+    .botoner__infra-onpremise
+    {
+        width: 100%;
+        max-width: 300px;
+        
+    }
+
+    .image__infra-onpremise
+    {
+        margin-top: -130px;
+        width: 100%;
+        margin-bottom: 200px;
+    }
+
+    .image__infra-onpremise img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .botoner__infra-onpremise
+    {
+        position:relative;
+        top: 250px;
+        
+    }
+
+    .botoner__infra-onpremise button 
+    {
+        width: 90px;
+        height: 40px;
+        
+    }
+
+    .botoner__infra-onpremise button a 
+    {
+        font-size: 12px;
+        align-items: center;
+        width: 90px;
+        height: 40px;
+    }
+
+    /* FOROS */
+
+
+    .foro-contenido h1 
+    {
+        font-size: 23px;
+        font-style: italic;
+    }
+    .index-foros
+    {
+        flex-direction: column;
+    }
+
+    .foros 
+    {
+        width: 250px;
+        margin-top: 0;
+    }
+
+    .foro1 
+    {
+        margin-top: 70px;
+    }
+
+    .texto-foro p 
+    {
+        font-size: 16px;
+    }
+
+    .image-foro img 
+    {
+        margin-top: 50px;
+        width: 170px;
+    }
+
+    /* FOOTER */
+    
+    .footer 
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer__sunqu-icon
+    {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    
+
+    .footer__rights-reserved
+    {
+        width: 100%;
+        
+    }
+
+
+    .footer__rights-reserved h3
+    {
+        font-size: 13px;
+    }
+
+    .footer__social
+    {
+        width: 70%;
+        margin: 30px auto;
+        
+    }
+
+   
+
+}
+
+@media screen and (max-width: 858px) and (orientation: landscape)
+{
+    .menu_items li 
+    {
+        margin: 5px 0 0 0;
+    }
+
+    .menu_items
+    {
+        overflow: scroll;
+        height: calc(100% - 65px);
+    }
+
+    
+}
+

@@ -1,0 +1,20 @@
+p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family:'Quattrocento Sans', sans-serif;
+    text-align: left;
+    
+    width: 500px;
+    margin: 15px auto;
+    margin-top: 40px;
+
+}
+
+@media screen and (max-width: 858px)
+{
+    p
+    {
+        font-size: 16px;
+        width: 300px;
+    }
+}

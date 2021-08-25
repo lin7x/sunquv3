@@ -1,0 +1,50 @@
+.contenido__Infra-on-premise
+{
+    width: 100%;
+    display: flex;
+    padding-top: 300px;
+    flex-direction: row-reverse;
+}
+
+.image__infra-onpremise img {
+    display: flex;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.image__infra-onpremise
+{
+    width: 50%;
+}
+
+.texto-infra-onpremise
+{
+    width: 50%;
+    padding-top: 30px;
+}
+
+.botoner__infra-onpremise
+{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 90px auto; 
+}
+
+.botoner__infra-onpremise button
+{
+    background-color: #1F1933;
+}
+
+.botoner__infra-onpremise button a 
+{
+    color: white;
+}
+
+.botoner__infra-onpremise button a:hover
+{
+    background-color: white;
+    color: #4DACE1;
+    border: 2px solid #4DACE1;
+}

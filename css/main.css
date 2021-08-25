@@ -1,0 +1,102 @@
+
+
+.nav-div__inicio
+{
+    background-color: #4DACE1;
+    padding-top: 72px;
+    display: flex;
+    width: 100%;
+    flex-direction:row-reverse;
+}
+
+.nav-div-img__image1
+{
+    width: 50%;
+    display: flex;
+    margin-top: 100px;
+}
+
+.nav-div-img__image1 img
+{
+    width: 540px;
+    height: 380px;
+    margin:  0 auto;
+    
+}
+
+.nav-div-section__contenido
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.nav-div-section__contenido p
+{
+    color: black;
+}
+.nav-div-section__contenido h1
+{
+    color: black;
+}
+
+.button
+{
+    
+    width: 120px;
+    height: 47px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:  50px auto;
+    background-color: #1F1933;
+    color: white;
+}
+
+
+/* CONTENIDO DE LA INFRAESTRUCTURA CLOUD */
+
+.Infra-cloud
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+.texto-infra-cloud
+{
+    width: 50%;
+}
+
+.infra-cloud--image
+{
+    width: 50%;
+}
+
+.infra-cloud--image img 
+{
+    display: flex;
+    margin: 0 auto;
+    width: 438px;
+    height: 313px;
+}
+
+/* ICONS CLOUD */
+
+.icons-cloud 
+{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    
+}
+
+.icons-cloud img
+{
+    
+    width: 70px;
+    height: 70px;
+   
+}

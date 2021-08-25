@@ -1,0 +1,29 @@
+button
+{
+    width: 120px;
+    height: 47px;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+button a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 120px;
+    height: 47px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+button a:hover
+{
+    border: 2px solid white;
+    color: white;
+    background-color: #4DACE1;
+    border-radius: 5px;
+}
+

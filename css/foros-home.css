@@ -1,0 +1,100 @@
+.foro-contenido
+{
+    background-color: #F7F8FC;
+    margin-top: 0;
+    border: 0;
+}
+
+.vector-2
+{
+    margin-bottom: -10px;
+} 
+
+
+
+
+.index-foros
+{
+    display: flex;
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.foros
+{
+    
+    justify-content: space-between;
+    background-color: white;
+    width: 302px;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: 100px auto;
+    border-radius: 50px 50px 0 0;
+    filter: drop-shadow(2px 1px 6px black);
+    
+}
+
+
+
+.image-foro img
+{
+    
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+}
+
+.image-foro
+{
+ 
+    display: flex;
+}
+
+.texto-foro
+{
+    width: 100%;
+    
+    
+    
+    
+}
+
+.texto-foro p 
+{
+    width: 90%;
+    font-size: 20px;
+    margin: 30px auto;
+    height: 100%;
+    
+}
+
+.leer-mas
+{
+    width: 100%;
+    display: flex;
+}
+.leer-mas button
+{
+    background-color: #1f1933;
+    width: 80%;
+    margin: 10px auto;
+    
+
+}
+
+.leer-mas button a 
+{
+    text-align: center;
+    width: 100%;
+    height: inherit;
+    color: white;
+}
+
+
+.leer-mas button a:hover 
+{
+    border: 2px solid #4DACE1;
+    background-color: white;
+    color: #4DACE1;
+}
